@@ -268,7 +268,7 @@ public class QuizFragment extends Fragment
                 // display correct answer in green text
                 answerTextView.setText(answer + "!");
                 answerTextView.setTextColor(
-                        getResources().getColor(R.color.correct_answer);
+                        getResources().getColor(R.color.correct_answer));
 
                 disableButtons(); // disable all guess Buttons
 
